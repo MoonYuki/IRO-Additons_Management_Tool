@@ -1,0 +1,20 @@
+﻿<Window x:Class="IRO补丁管理工具.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IRO补丁管理工具"
+        mc:Ignorable="d"
+        Title="说明" Height="400" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="1.首先要安装预读文件，点击左下角的预读文件夹设置按钮，然后在弹出的文件选择" HorizontalAlignment="Left" Height="Auto" Margin="53,10,0,0" VerticalAlignment="Top" Width="Auto" Foreground="Black" FontSize="18"/>
+        <Label Content="对话框中选择RO游戏目录下的data.grf文件。如果操作正确将会弹出cmd命令窗口，输" HorizontalAlignment="Left" Height="Auto" Margin="23,40,0,0" VerticalAlignment="Top" Width="Auto" Foreground="Black" FontSize="18"/>
+        <Label Content="入1然后回车，等待进度运行至100%，按任意键退出即可。" HorizontalAlignment="Left" Height="Auto" Margin="23,70,0,0" VerticalAlignment="Top" Width="Auto" Foreground="Black" FontSize="18"/>
+        <Label Content="2.选择需要的功能点击应用补丁即可，懒人一键勾选按钮可以快速勾选全部，通用免" HorizontalAlignment="Left" Height="Auto" Margin="53,110,0,0" VerticalAlignment="Top" Width="Auto" Foreground="Black" FontSize="18"/>
+        <Label Content="鉴定补丁会弹出cmd命令窗口，按任意键即可。如勾选清空data文件夹的复选框，应用" HorizontalAlignment="Left" Height="Auto" Margin="23,140,0,0" VerticalAlignment="Top" Width="Auto" Foreground="Black" FontSize="18"/>
+        <Label Content="补丁前会先卸载全部补丁。" HorizontalAlignment="Left" Height="Auto" Margin="23,170,0,0" VerticalAlignment="Top" Width="Auto" Foreground="Black" FontSize="18"/>
+        <Label Content="3.如要卸载补丁，直接点击卸载全部补丁即可。" HorizontalAlignment="Left" Height="Auto" Margin="53,220,0,0" VerticalAlignment="Top" Width="Auto" Foreground="Black" FontSize="18"/>
+        <Label Content="如发现BUG或有改善软件使用的建议，可以在群里联系忽闻绛雪" HorizontalAlignment="Center" Height="Auto" Margin="0,270,0,0" VerticalAlignment="Top" Width="Auto" Foreground="Black" FontSize="24"/>
+        
+    </Grid>
+</Window>
